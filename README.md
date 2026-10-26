@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal Website For Zoe
+Personal website for Zoe Xia: USC M.S. Computer Science student and software engineer.
 
 # React + Vite
 
