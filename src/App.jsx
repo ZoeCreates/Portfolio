@@ -115,6 +115,20 @@ const experiences = [
 
 const projects = [
   {
+    name: "Personal AI Agent Runtime",
+    badge: "Public demo · 10 free messages/day",
+    image: "/images/projects/agent.png",
+    summary:
+      "A personal AI agent runtime with persistent, session-aware memory, MCP-based tool integration, and multi-channel interaction (CLI, web UI, Telegram) to automate information retrieval, summarization, and communication workflows. The live demo is a read-only guest mode: calculator, web search, stocks, and time tools only.",
+    bullets: [
+      "Developed 4 reusable workflow modules for information retrieval, content generation, summarization, and context-aware tool execution",
+      "Fine-tuned an LLM on user-provided writing samples to match the user's vocabulary, tone, and phrasing when drafting emails and messages",
+    ],
+    tags: ["Python", "Flask", "MCP", "Anthropic / OpenAI APIs", "QLoRA", "Railway"],
+    demo: "https://web-production-ffd16.up.railway.app/",
+    github: "https://github.com/ZoeCreates/Personal-Agent-Project-",
+  },
+  {
     name: "SMART Trial Simulator - Multi-Agent Clinical Diagnosis",
     badge: "Research · USC Agent for Clinical Trials Lab",
     summary:
@@ -155,19 +169,6 @@ const projects = [
     tags: ["React", "REST APIs", "MySQL", "Python", "BeautifulSoup", "pytest", "Railway"],
     demo: "https://web-production-5951e.up.railway.app/",
     github: "https://github.com/ZoeCreates/Bite_brief",
-  },
-  {
-    name: "Personal AI Agent Runtime",
-    badge: "Password-protected demo",
-    summary:
-      "A personal AI agent runtime with persistent, session-aware memory, MCP-based tool integration, and multi-channel interaction (CLI, web UI, Telegram) to automate information retrieval, summarization, and communication workflows.",
-    bullets: [
-      "Developed 4 reusable workflow modules for information retrieval, content generation, summarization, and context-aware tool execution",
-      "Fine-tuned an LLM on user-provided writing samples to match the user's vocabulary, tone, and phrasing when drafting emails and messages",
-    ],
-    tags: ["Python", "Flask", "MCP", "Anthropic / OpenAI APIs", "QLoRA", "Railway"],
-    demo: "https://web-production-ffd16.up.railway.app/",
-    github: "https://github.com/ZoeCreates/Personal-Agent-Project-",
   },
   {
     name: "Spotify Lite - Full-Stack Music Streaming App",
