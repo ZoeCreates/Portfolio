@@ -146,14 +146,14 @@ const projects = [
     badge: "USC Dual Use Hackathon",
     image: "/images/projects/diza.png",
     summary:
-      "A multilingual AI voice hotline that triages emergency calls from older adults and people with disabilities and escalates urgent cases to human responders. Includes a 911 operations dashboard and a senior-care building dashboard.",
+      "A multilingual AI voice hotline that triages emergency calls from older adults and people with disabilities and escalates urgent cases to human responders. Includes a 911 operations dashboard and a senior-care building dashboard. The live demo is read-only and runs on synthetic data with no phone line connected.",
     bullets: [
       "Built the hotline with 8 Retell AI voice agents and a FastAPI backend",
       "Designed a 3-layer triage pipeline (keyword rules → LLM classification → space-time DBSCAN clustering), validated with 40 golden test cases and prompt-injection checks",
       "Made backend write APIs idempotent to tolerate retries, implemented responder matching by skill and language, and built a React/MapLibre 3D live incident map",
     ],
     tags: ["FastAPI", "Retell AI", "React", "MapLibre", "DBSCAN", "Railway"],
-    demo: "https://diza-production.up.railway.app/",
+    demo: "https://diza-demo-web-production.up.railway.app/ops",
     github: "https://github.com/ZoeCreates/DIZA",
   },
   {
