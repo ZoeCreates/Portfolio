@@ -177,7 +177,8 @@ const projects = [
       "Song search by title, artist, genre, and language; like/unlike songs and follow/unfollow artists; editable user profiles and a personal liked-songs library",
       "Clean REST API with controllers, Mongoose models, and Jest + Supertest API tests; responsive React frontend",
     ],
-    tags: ["React", "Material-UI", "Node.js", "Express", "MongoDB", "Jest", "Vercel"],
+    tags: ["React", "Material-UI", "Node.js", "Express", "MongoDB", "Jest", "Railway"],
+    demo: "https://spotify-lite-web-production.up.railway.app/",
     github: "https://github.com/ZoeCreates/Spotify-Lite",
   },
 ];
