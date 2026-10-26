@@ -570,7 +570,9 @@ function App() {
               <h3 className="projects-subhead">
                 <MdLightbulb className="section-icon" /> More Projects
               </h3>
-              {olderProjects.map(renderProject)}
+              <div className="project-grid">
+                {olderProjects.map(renderProject)}
+              </div>
               <h3 className="projects-subhead">
                 <MdLightbulb className="section-icon" /> More Links
               </h3>
